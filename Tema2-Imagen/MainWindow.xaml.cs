@@ -27,37 +27,37 @@ namespace Tema2_Imagen
 
         private void opaltaRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)opaltaRadioButton.IsChecked) imagenImage.Opacity = 1.0;
+            imagenImage.Opacity = 1.0;
         }
 
         private void opmediaRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)opmediaRadioButton.IsChecked) imagenImage.Opacity = 0.6;
+            imagenImage.Opacity = 0.6;
         }
 
         private void opbajaRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)opbajaRadioButton.IsChecked) imagenImage.Opacity = 0.3;
+            imagenImage.Opacity = 0.3;
         }
 
         private void rellenoRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)rellenoRadioButton.IsChecked) imagenImage.Stretch = Stretch.Fill;
+            imagenImage.Stretch = Stretch.Fill;
         }
         
         private void uniformeRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)uniformeRadioButton.IsChecked) imagenImage.Stretch = Stretch.Uniform;
+            imagenImage.Stretch = Stretch.Uniform;
         }
         
         private void rellenouniformeRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)rellenouniformeRadioButton.IsChecked) imagenImage.Stretch = Stretch.UniformToFill;
+            imagenImage.Stretch = Stretch.UniformToFill;
         }
         
         private void ningunoRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)ningunoRadioButton.IsChecked) imagenImage.Stretch = Stretch.None;
+            imagenImage.Stretch = Stretch.None;
         }
     }
 }
